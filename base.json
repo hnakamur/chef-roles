@@ -1,0 +1,15 @@
+{
+  "default_attributes": {
+  },
+  "json_class": "Chef::Role",
+  "name": "base",
+  "description": "",
+  "env_run_lists": {
+  },
+  "override_attributes": {
+  },
+  "run_list": [
+    "ntp"
+  ],
+  "chef_type": "role"
+}
