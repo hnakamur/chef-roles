@@ -1,0 +1,19 @@
+{
+  "default_attributes": {
+  },
+  "json_class": "Chef::Role",
+  "name": "base",
+  "description": "",
+  "env_run_lists": {
+  },
+  "override_attributes": {
+  },
+  "run_list": [
+    "role[base]",
+    "daemontools-toaster",
+    "nodejs",
+    "proteus-monitor-agent",
+    "proteus-monitor-server"
+  ],
+  "chef_type": "role"
+}
