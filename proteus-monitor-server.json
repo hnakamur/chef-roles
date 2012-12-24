@@ -10,7 +10,7 @@
   },
   "run_list": [
     "role[base]",
-    "daemontools-toaster",
+    "daemontools",
     "nodejs",
     "proteus-monitor-agent",
     "proteus-monitor-server"
