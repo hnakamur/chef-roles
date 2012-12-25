@@ -9,7 +9,8 @@
   "override_attributes": {
   },
   "run_list": [
-    "ntp"
+    "ntp",
+    "sysstat"
   ],
   "chef_type": "role"
 }
